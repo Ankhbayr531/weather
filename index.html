@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>api</title>
+        <style>
+            body{
+                background-color: rgb(107, 52, 247);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 90vh;
+            }
+            .weath{
+                background-color: #fff;
+                padding:20px;
+                width: 300px;
+                border-radius: 8px;
+                text-align: center;
+            }
+            .weath .city{
+                text-align: center;
+            }
+            .weath button{
+                background-color: #6afed4;
+                border-radius: 8px;
+                padding-top:7px;
+                padding-bottom:7px;
+                padding-right:15px;
+                padding-left: 15px;
+                border: 1px;
+            }
+            .weath img{
+                height:100px;
+                width:100px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="weath">
+            <input type="text">
+            <button>search</button>
+            <h2 class="city"></h2>
+            <img src="https://img.freepik.com/free-vector/watercolor-weather-effects-collection_23-2149115331.jpg">
+            <p class="desc"></p>
+            <p class="temp"></p>
+            <p class="wind"></p>
+            <p class="hum"></p>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
